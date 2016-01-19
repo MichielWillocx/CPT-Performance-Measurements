@@ -1,0 +1,27 @@
+\begin{table*}[t]
+\centering
+\begin{tabular}{lcccccc}
+\toprule[1.0pt]
+& \multicolumn{2}{c}{Android} & \multicolumn{2}{c}{iOS} & \multicolumn{1}{c}{Windows}\\
+& \emph{Nexus 6} & \emph{Acer Liquid} & \emph{iPhone 6} & \emph{iPhone 4} & \emph{Lumia 925}\\
+\midrule[0.25pt]
+\multicolumn{6}{l}{\bf Native implementation for each platform}\\
+\phantom{..}\emph{Native} &296&473&193&611&876\\
+\multicolumn{6}{l}{\bf JavaScript Frameworks (using PhoneGap as Web-to-native wrapper) }\\
+\phantom{..}\emph{Famo.us} &1279&2009&439&1490&2271\\
+\phantom{..}\emph{Intel App Framework} &1024&1384&538&1804&1563\\
+\phantom{..}\emph{Ionic} &1218&1804&731&2746&1771\\
+\phantom{..}\emph{jQuery Mobile} &1788&2572&416&1185&2586\\
+\phantom{..}\emph{Mgwt} &1218&1439&502&1788&2003\\
+\phantom{..}\emph{Sencha Touch 2} &2440&2838&760&2988&2541\\
+\multicolumn{6}{l}{\bf Source code translators and runtimes }\\
+\phantom{..}\emph{Adobe AIR} &TODO&TODO&TODO&TODO&n/a\\
+\phantom{..}\emph{NeoMAD} &397&526&286&807&3144\\
+\phantom{..}\emph{Titanium} &809&1545&329&1152&n/a\\
+\phantom{..}\emph{Xamarin} &898&1217&348&1386&see native\\
+\bottomrule[1.0pt]
+\tabularnewline
+\end{tabular}
+\caption{Voorbeeldtabel meetresultaten}
+\label{table:voorbeeldtabel}
+\end{table*}
